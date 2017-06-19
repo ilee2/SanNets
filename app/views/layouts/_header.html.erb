@@ -1,0 +1,25 @@
+<header class="navbar navbar-fixed-top navbar-inverse">
+  <div class="container">
+    <%= link_to "SANNETS TECHNICAL SERVICES", root_path, id: "logo" %>
+    <nav>
+      <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to "Home",   root_path %></li>
+        <!-- dropdown -->
+      
+        <li><%= link_to "Services",   '#' %> 
+
+		<ul class="dropdown">
+			<li><%= link_to "Network",   network_path %></li>
+			<li><%= link_to "Telephony",   telephony_path %></li>
+			<li><%= link_to "system",   system_path %></li>
+			<li><%= link_to "Cloud",   cloud_path %></li>
+			<li><%= link_to "Helpdesk Support",   helpdesk_path %></li>
+			<li><%= link_to "Asset Management",   assetmanagement_path %></li>
+			<li><%= link_to "Web Development",   webdevelopment_path %></li>
+		</ul>
+	</li>      
+        <li><%= link_to "Contact", contactforms_path %></li>
+      </ul>
+    </nav>
+  </div>
+</header>
