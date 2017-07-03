@@ -133,21 +133,21 @@
 /* carousel */
 
 .slide1{
-  background-image: url('animal.jpg');
+  background-image: image-url('animal.jpg');
   height: 500px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .slide2{
-  background-image: url('birds.jpg');
+  background-image: image-url('birds.jpg');
   height: 500px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .slide3{
-  background-image: url('monkey.jpg');
+  background-image: image-url('monkey.jpg');
   height: 500px;
   background-repeat: no-repeat;
   background-position: center;
