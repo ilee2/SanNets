@@ -1,81 +1,117 @@
+<!-- Banner -->
+      <section id="banner" class="bannerhome">
+        <h1>Sannets</h1>
+        <h1>IT Service Delivery Excellence </h1>
+        <p>The technology service delivery experts</p>
+      </section>
 
+    <!-- One -->
+      <section id="one" class="wrapper">
+        <div class="inner">
+          <div class="flex flex-3">
+            <article>
+              <header>
+                <h3>Managed IT Services</h3>
+              </header>
+              <p>It’s important to ensure that critical IT systems are always available to support core business functions, but maintaining IT systems with an in-house IT staff can be costly and leave you without expertise in the latest technologies. Sannets has services to address your ongoing IT management and support needs. Our Managed IT Services provide regular management of systems and networks that keep your PCs, servers and networks up and running, minimizing downtime and maximizing productivity. We'll build the right IT plan to optimize your business.</p>
+              <footer>
+                <a href="#" class="button special">More</a>
+              </footer>
+            </article>
+            <article>
+              <header>
+                <h3>IT Security</h3>
+              </header>
+              <p>A comprehensive IT security strategy is a critical component of the success of any business. Without an extensive security strategy, organizations leave themselves open to countless security risks. Through our portfolio of holistic IT Security Services, Sannets employs best-in-class measures to build a comprehensive security strategy encompassing cyber security, mobile protection plan and cloud backup and recovery.</p>
+              <footer>
+                <a href="#" class="button special">More</a>
+              </footer>
+            </article>
+            <article>
+              <header>
+                <h3>IT Consulting and Projects</h3>
+              </header>
+              <p>Implementing and adopting new technologies is critical if you want to stay relevant in today’s ever-changing business world. But doing so can be complex, especially given the amount of solutions available to organizations today. When your company needs IT consulting services or project management to implement technology changes, Sannets can help.</p>
+              <footer>
+                <a href="#" class="button special">More</a>
+              </footer>
+            </article>
+          </div>
+        </div>
+      </section>
 
-<div id="theCarousel" class="carousel slide" data-ride="carousel">
-  <!-- Define how many slides to put in the carousel -->
-  <ol class="carousel-indicators">
-    <li data-target="#theCarousel" data-slide-to="0" class="active"> </li >
-    <li data-target="#theCarousel" data-slide-to="1"> </li>
-    <li data-target ="#theCarousel" data-slide-to="2"> </li>
-  </ol >
- 
-  <!-- Define the text to place over the image -->
-  <div class="carousel-inner">
-    <div class="item active" >
-    <div class ="slide1"></div>
-    <div class="carousel-caption">
-      <h1>Amazing Backgrounds</h1>
-      <p>Thousands of Backgrounds for Free</p>
-      <%= link_to "Contact us", new_contact_form_path, :class=>"btn btn-primary btn-sm" %>
-    </div>
-  </div>
-  <div class="item">
-  <div class="slide2"></div>
-  <div class="carousel-caption">
-    <h1>Thousands of Colors</h1>
-    <p>Every Color you can Imagine</p>
-  </div>
-  </div>
-  <div class="item">
-  <div class="slide3"></div>
-  <div class="carousel-caption">
-  <h1>Amazing Illustrations</h1>
-  <p>And they are All Free</p>
-  </div>
-  </div>
-  </div></div>
- 
-<div class="jumbotron">
-  <center><h1>Here are 6 boxes</h1></center>
+    <!-- Two -->
+      <section id="two" class="wrapper style1 special">
+        <div class="inner">
+          <header>
+            <h2>IT Consulting Services</h2>
+            <p>Soecialized teams of engineers and project leaders working for you</p>
+          </header>
+          <div class="flex flex-4">
+            <div class="box person">
+              <div class="image round">
+                <%= image_tag("Person1.jpg", :alt => "Person 1") %>
+              </div>
+              <h3>Magna</h3>
+              <p>Cipdum dolor</p>
+            </div>
+            <div class="box person">
+              <div class="image round">
+                <%= image_tag("Person1.jpg", :alt => "Person 2") %>
+              </div>
+              <h3>Ipsum</h3>
+              <p>Vestibulum comm</p>
+            </div>
+            <div class="box person">
+              <div class="image round">
+                <%= image_tag("Person1.jpg", :alt => "Person 3") %>
+              </div>
+              <h3>Tempus</h3>
+              <p>Fusce pellentes</p>
+            </div>
+            <div class="box person">
+              <div class="image round">
+                <%= image_tag("Person1.jpg", :alt => "Person 4") %>
+              </div>
+              <h3>Dolore</h3>
+              <p>Praesent placer</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-  <!-- Third Container (Grid) -->
-<div class="container-fluid bg-3 text-center">    
-  <h3 class="margin">testing margin</h3><br>
-  <div class="row">
-    <div class="col-sm-4">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <%= link_to image_tag("icon1.png") %>
-    </div>
-    <div class="col-sm-4"> 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <%= link_to image_tag("icon2.png") %>
-    </div>
-    <div class="col-sm-4"> 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <%= link_to image_tag("icon3.png") %>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col-sm-4">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <%= link_to image_tag("icon4.png") %>
-    </div>
-    <div class="col-sm-4"> 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <%= link_to image_tag("icon5.png") %>
-    </div>
-    <div class="col-sm-4"> 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <%= link_to image_tag("icon6.png") %>
-    </div>
-  </div>
-</div>
-
-</div>
-
-<!-- Footer -->
-<footer class="container-fluid bg-4 text-center">
-  <p>Copyright all rights reserved to Sannets 2017</p> 
-</footer>
-
-
+    <!-- Three -->
+      <section id="three" class="wrapper special">
+        <div class="inner">
+          <header class="align-center">
+            <h2>Nunc Dignissim</h2>
+            <p>Aliquam erat volutpat nam dui </p>
+          </header>
+          <div class="flex flex-2">
+            <article>
+              <div class="image fit">
+                <%= image_tag("pic01.jpg", :alt => "Pic 01") %>
+              </div>
+              <header>
+                <h3>Praesent placerat magna</h3>
+              </header>
+              <p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor lorem ipsum.</p>
+              <footer>
+                <a href="#" class="button special">More</a>
+              </footer>
+            </article>
+            <article>
+              <div class="image fit">
+                 <%= image_tag("pic02.jpg", :alt => "Pic 02") %>
+              </div>
+              <header>
+                <h3>Fusce pellentesque tempus</h3>
+              </header>
+              <p>Sed adipiscing ornare risus. Morbi est est, blandit sit amet, sagittis vel, euismod vel, velit. Pellentesque egestas sem. Suspendisse commodo ullamcorper magna non comodo sodales tempus.</p>
+              <footer>
+                <a href="#" class="button special">More</a>
+              </footer>
+            </article>
+          </div>
+        </div>
+      </section>
